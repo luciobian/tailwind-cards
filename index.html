@@ -1,22 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <title>DBP Learn - Tailwind Challenge</title>
-    <!-- Font awesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <!-- Tailwind core CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="./dist/styles.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <h1 class="text-center">Tailwind Cards Challenge</h1><br>
-    <p class="text-center">Check the README for instructions.</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>DBP Learn - Tailwind Challenge</title>
+  <!-- Font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- Tailwind core CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="./dist/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100">
+  <h1 class="mt-6 text-center">Tailwind Cards Challenge</h1><br>
+  <div class="grid 
+              grid-cols-1 
+              sm:grid-cols-1 
+              md:grid-cols-2 
+              lg:grid-cols-3 
+              gap-4">
+    <div class="bg-white 
+                border-solid border-1 border-slate-200 
+                max-w-lg 
+                rounded-lg 
+                hover:shadow-lg m-3">
+      <img src="https://picsum.photos/500/300?v=3" class="rounded-t-lg w-full" alt="">
+      <div class="p-6">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora architecto rerum maiores ab hic rem
+          laborum accusantium distinctio. Fugit similique porro cupiditate odit minima autem aperiam obcaecati earum
+          blanditiis.</p>
+      </div>
+      <div class="p-6 
+                  flex 
+                  justify-between 
+                  items-baseline">
+        <p class="text-slate-500">8 mins</p>
+        <button
+          class="bg-red-500 
+                text-white 
+                py-1 px-4 
+                rounded-lg 
+                hover:bg-red-700 
+                focus:border-red-500 
+                focus:outline-none 
+                focus:ring-2 
+                focus:ring-red-500 
+                focus:ring-opacity-50">
+                Read more</button>
+      </div>
+    </div>
+    <div class="bg-white 
+                max-w-lg 
+                border-solid 
+                border-1 
+                border-slate-200 
+                rounded-lg 
+                hover:shadow-lg m-3">
+      <img src="https://picsum.photos/500/300?v=1" class="rounded-t-lg w-full" alt="">
+      <div class="p-6">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora architecto rerum maiores ab hic rem
+          laborum accusantium distinctio. Fugit similique porro cupiditate odit minima autem aperiam obcaecati earum
+          blanditiis.</p>
+      </div>
+      <div class="p-6 
+                  flex 
+                  justify-between 
+                  items-baseline">
+        <p class="text-slate-500">8 mins</p>
+        <button
+          class="bg-red-500 
+                text-white 
+                py-1 px-4 
+                rounded-lg 
+                hover:bg-red-700 
+                focus:border-red-500 
+                focus:outline-none 
+                focus:ring-2 
+                focus:ring-red-500 
+                focus:ring-opacity-50">
+                Read more</button>
+      </div>
+    </div>
+
+    <div class="bg-white 
+                max-w-lg 
+                border-solid 
+                border-1 
+                border-slate-200 
+                rounded-lg 
+                hover:shadow-lg m-3">
+      <img src="https://picsum.photos/500/300?v=2" class="rounded-t-lg w-full" alt="">
+      <div class="p-6">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora architecto rerum maiores ab hic rem
+          laborum accusantium distinctio. Fugit similique porro cupiditate odit minima autem aperiam obcaecati earum
+          blanditiis.</p>
+      </div>
+      <div class="p-6 
+                  flex 
+                  justify-between 
+                  items-baseline">
+        <p class="text-slate-500">8 mins</p>
+        <button
+          class="bg-red-500 
+                text-white 
+                py-1 px-4 
+                rounded-lg 
+                hover:bg-red-700 
+                focus:border-red-500 
+                focus:outline-none 
+                focus:ring-2 
+                focus:ring-red-500 
+                focus:ring-opacity-50">Read
+          more</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
